@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Mercapp",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

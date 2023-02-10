@@ -1,0 +1,8 @@
+{
+  "name": "Mercapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "72e92c4d"
+}
