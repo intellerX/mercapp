@@ -1,0 +1,30 @@
+.sidebar-container {
+    max-height: 90%;
+    position: fixed;
+    top: 15%;
+    border-radius: 30px;
+    left: 20px;
+    bottom: 20px;
+    max-width: 50%;
+}
+
+ion-menu-button {
+    font-size: xxx-large;
+}
+
+ion-card {
+    width: fit-content;
+    margin-left: 36px;
+}
+
+ion-card-title {
+    font-size: small;
+}
+
+ion-icon {
+    vertical-align: middle;
+}
+
+ion-title {
+    margin-top: 5px;
+}
