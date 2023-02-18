@@ -1,1 +1,131 @@
 <app-searchvar></app-searchvar>
+<ion-content class="ion-padding">
+
+    <ion-segment [scrollable]="true" color="transparent">
+        <ion-col size="3">
+            <ion-button>Todas</ion-button>
+        </ion-col>
+        <ion-col size="4">
+            <ion-button fill="outline">Económicas</ion-button>
+        </ion-col>
+        <ion-col size="3">
+            <ion-button fill="outline">Nuevas</ion-button>
+        </ion-col>
+        <ion-col size="4">
+            <ion-button fill="outline">Populares</ion-button>
+        </ion-col>
+
+    </ion-segment>
+
+    <ion-segment [scrollable]="true" color="transparent">
+        <ion-col size="5">
+            <ion-card>
+                <ion-card-content>
+                    <div style="display: flex; align-items: center;justify-content: center;">
+                        <img style="position: absolute; top: -19px; left: 2px; z-index: 1; width: 100px;" alt="Fruits Banner" src="https://www.pngmart.com/files/17/Fruits-Basket-PNG-Pic.png" />
+                    </div>
+                </ion-card-content>
+                <ion-card-header class="ion-no-padding ion-padding-vertical">
+                    <h6 size="small">Despensa</h6>
+                    <ion-card-subtitle>↗</ion-card-subtitle>
+                </ion-card-header>
+
+            </ion-card>
+        </ion-col>
+
+        <ion-col size="5">
+            <ion-card>
+                <ion-card-content>
+                    <div style="display: flex; align-items: center;justify-content: center;">
+                        <img style="position: absolute; top: 4px; left: 2px; z-index: 1; width: 100px;" alt="Fruits Banner" src="https://www.pngmart.com/files/1/Cheese-PNG-Image.png" />
+                    </div>
+                </ion-card-content>
+                <ion-card-header class="ion-no-padding ion-padding-vertical">
+                    <h6 size="small">Lácteos</h6>
+                    <ion-card-subtitle>↖</ion-card-subtitle>
+                </ion-card-header>
+
+            </ion-card>
+        </ion-col>
+
+        <ion-col size="5">
+            <ion-card>
+                <ion-card-content>
+                    <div style="display: flex; align-items: center;justify-content: center;">
+                        <img style="position: absolute; top: -14px; left: 2px; z-index: 1; width: 100px;" alt="Fruits Banner" src="https://pngimg.com/uploads/meat/small/meat_PNG3942.png" />
+                    </div>
+                </ion-card-content>
+                <ion-card-header class="ion-no-padding ion-padding-vertical">
+                    <h6 size="small">Carnes</h6>
+                    <ion-card-subtitle>↗</ion-card-subtitle>
+                </ion-card-header>
+
+            </ion-card>
+        </ion-col>
+
+
+    </ion-segment>
+
+
+
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <h6>
+                    Canasta más popular
+                </h6>
+
+            </ion-col>
+            <ion-col>
+                <h6>
+                    $305.000
+                </h6>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+
+
+    <ion-card [routerLink]="['/basket/10']">
+        <div style="position: absolute; right: 16px; z-index: 1;" color="white">
+            <h6 style="color: beige;">
+                36 productos
+            </h6>
+        </div>
+        <img class="image-gray" alt="Fruits Banner" src="https://images.pexels.com/photos/1300975/pexels-photo-1300975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+    </ion-card>
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <h6>
+                    Sugerencias
+                </h6>
+
+            </ion-col>
+            <ion-col>
+                <h6>
+                    $305.000
+                </h6>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+
+
+
+    <ion-card [routerLink]="['/basket/11']">
+        <img style="position: absolute; top: 15px; left: 16px; z-index: 1; width: 100px;" alt="Fruits Banner" src="https://www.pngmart.com/files/17/Fruits-Basket-PNG-Pic.png" />
+
+        <div style="position: absolute; right: 16px; z-index: 1;" color="white">
+            <h6 style="color: beige;">
+                36 productos
+            </h6>
+        </div>
+        <div style="position: absolute; right: 16px; top: 20px; z-index: 1;" color="white">
+            <h6 style="color: beige;">
+                Canasta Rápida
+            </h6>
+        </div>
+        <img class="image-gray" alt="Fruits Banner" src="https://images.pexels.com/photos/301378/pexels-photo-301378.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+    </ion-card>
+</ion-content>
